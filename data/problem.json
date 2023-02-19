@@ -1,0 +1,58 @@
+{
+    "title": "Binary Search",
+    "problemStatement": "Given a sorted array of size N and an integer K, find the position at which K is present in the array using binary search. If key not found return -1",
+    "examples": [
+        {
+            "input": "N = 5  arr[]{1 2 3 4 5} K = 4 ",
+            
+            "output": "3",
+            "explaination": "in arr array 4 is at 3rd index."
+        },
+        {
+            "input": "N = 5  arr[]{1 2 3 4 5} K = 4 ",
+            
+            "output": "3",
+            "explaination": "in arr array 4 is at 3rd index."
+        }
+        
+    ],
+    "difficulty": "MEDIUM"
+} {
+    "title": "Allocate minimum no of pages",
+    "problemStatement": "You are given N number of books. Every ith book has Ai number of pages. The books are arranged in ascending order.  You have to allocate contiguous books to M number of students. There can be many ways or permutations to do so. In each permutation, one of the M students will be allocated the maximum number of pages. Out of all these permutations, the task is to find that particular permutation in which the maximum number of pages allocated to a student is the minimum of those in all the other permutations and print this minimum value. Each book will be allocated to exactly one student. Each student has to be allocated at least one book. Note: Return -1 if a valid assignment is not possible, and allotment should be in contiguous order (see the explanation for better understanding).",
+    "examples": [
+        {
+            "input": "`N = 5  arr[]{1 2 3 4 5} K = 4 ",
+            
+            "output": "3",
+            "explaination": "in arr array 4 is at 3rd index."
+        },
+        {
+            "input": "`N = 5  arr[]{1 2 3 4 5} K = 4 ",
+            
+            "output": "3",
+            "explaination": "in arr array 4 is at 3rd index."
+        }
+        
+    ],
+    "difficulty": "HARD"
+} {
+    "title": "Substring No Repeat",
+    "problemStatement": "Given a string W, integer array B and character array X. Find a substring which has the sum of the ASCII values of its every character, as maximum. ASCII values of some characters are redefined.",
+    "examples": [
+        {
+            "input": "`N = 5  arr[]{1 2 3 4 5} K = 4 ",
+            
+            "output": "3",
+            "explaination": "in arr array 4 is at 3rd index."
+        },
+        {
+            "input": "`N = 5  arr[]{1 2 3 4 5} K = 4 ",
+            
+            "output": "3",
+            "explaination": "in arr array 4 is at 3rd index."
+        }
+        
+    ],
+    "difficulty":"HARD"
+}
